@@ -16,7 +16,8 @@ public class Main {
      */
     public static void main(String[] args) {
    
-        SaludosJFrame c = new SaludosJFrame();
+        INICIO c;
+        c = new INICIO();
         c.setVisible(true);
         
     }
