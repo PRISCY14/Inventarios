@@ -5,17 +5,24 @@
  */
 package inventarios;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author PRISCY
  */
 public class INICIO extends javax.swing.JFrame {
+    private Object Inventarios;
 
     /**
      * Creates new form INICIO
      */
     public INICIO() {
         initComponents();
+    }
+
+    INICIO() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
@@ -114,7 +121,10 @@ public class INICIO extends javax.swing.JFrame {
         
         SaludosJFrame b= new SaludosJFrame();
         b.setVisible(true);
-        
+                }
+            }
+        if (encontrado==false){
+        JOptionPane.showMessageDialog(null, "Usuario no encontrado");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

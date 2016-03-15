@@ -16,8 +16,7 @@ public class Main {
      */
     public static void main(String[] args) {
    
-        INICIO c;
-        c = new INICIO();
+        INICIO c = new INICIO();
         c.setVisible(true);
         
     }
